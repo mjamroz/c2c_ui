@@ -13,15 +13,15 @@
     // copied from vue router : https://github.com/vuejs/vue-router/blob/dev/src/components/link.js
     function guardEvent(e) {
         // don't redirect with control keys
-        if (e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) return
+        if (e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) { return }
         // don't redirect when preventDefault called
-        if (e.defaultPrevented) return
+        if (e.defaultPrevented) { return }
         // don't redirect on right click
-        if (e.button !== undefined && e.button !== 0) return
+        if (e.button !== undefined && e.button !== 0) { return }
         // don't redirect if `target="_blank"`
         if (e.currentTarget && e.currentTarget.getAttribute) {
             const target = e.currentTarget.getAttribute('target')
-            if (/\b_blank\b/i.test(target)) return
+            if (/\b_blank\b/i.test(target)) { return }
         }
         // this may be a Weex event which doesn't have this method
         if (e.preventDefault) {
@@ -31,7 +31,7 @@
     }
 
     const getFontAwesomeSrc = function(prefix, iconeName) {
-        let svgSource = icon({ prefix: prefix, iconName: iconeName }).html[0]
+        let svgSource = icon({ prefix, iconName: iconeName }).html[0]
         svgSource = svgSource.replace('fill="currentColor"', 'fill="#ffaa45"')
         return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgSource)
     }
@@ -71,7 +71,7 @@
                 const container = this.$refs.container
 
                 const addClasses = function(cssSelector, classes) {
-                    var nodes = container.querySelectorAll(cssSelector)
+                    const nodes = container.querySelectorAll(cssSelector)
 
                     for (let node of nodes) {
                         node.classList.add(...classes)

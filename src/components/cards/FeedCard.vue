@@ -90,7 +90,7 @@
                 return this.item.document
             },
             documentType() {
-                return this.$documentUtils.getDocumentType(this.document['type'])
+                return this.$documentUtils.getDocumentType(this.document.type)
             },
             locale() {
                 return this.$documentUtils.getLocaleSmart(this.item.document)
@@ -102,7 +102,7 @@
         created() {
             this.actionLine = ''
 
-            switch (this.item['change_type']) {
+            switch (this.item.change_type) {
             case 'created':
                 this.actionLine += 'has created a new '
                 break
@@ -117,7 +117,7 @@
             }
 
             this.actionLine += this.documentType
-            this.dates = this.$documentUtils.getOutingDatesLocalized(this.item['document'])
+            this.dates = this.$documentUtils.getOutingDatesLocalized(this.item.document)
 
             if (this.item.image1) {
                 this.images.push(this.item.image1)
