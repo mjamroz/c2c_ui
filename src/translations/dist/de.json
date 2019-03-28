@@ -302,7 +302,6 @@
     },
     "Create": "Erstellen",
     "Create a new report": "Neuen Unfallbericht verfassen",
-    "Create a new route": "Neue Route verfassen",
     "Created on": "Erstellt am",
     "crevasse_fall": {
       "event_types": "Absturz in eine Spalte"
@@ -687,7 +686,6 @@
       "waypoint_types": "Gegend"
     },
     "Location / elevation / orientation": "Standort / Höhe / Ausrichtung",
-    "Log in to post the first comment": "Loggen Sie sich ein, um den ersten Kommentar zu schreiben.",
     "Login": "Einloggen",
     "Logout": "Ausloggen",
     "Longitude": "Längengrad",
@@ -1207,7 +1205,6 @@
     "This book cover is the property of its editor and/or author": "Dieses Buchcover ist Eigentum des Herausgebers und / oder des Autors",
     "This content is licensed under Creative Commons BY-NC-ND 3.0": "Dieser Inhalt unterliegt der Lizenz Creative Commons BY-NC-ND 3.0",
     "This content is licensed under Creative Commons BY-SA 3.0": "Dieser Inhalt unterliegt der Lizenz Creative Commons BY-SA 3.0",
-    "This field must be a valid ISBN.": "Dieses Feld muss eine gultige ISBN\n sein.",
     "This picture depicts a book cover. It is the property of its editor and/or author. It is presented here only for illustration purposes.": "Dieses Bild zeigt ein Buch-Cover. Es ist Eigentum des Herausgebers und/oder Autor. Es wird hier nur zwecks Veranschaulichung vorgestellt.",
     "This profile is only available to authenticated users.": "Dieses Profil ist nur für eingeloggte Benutzern zugänglich.",
     "This tool estimates the technical difficulty of a ski route (ski rating).": "Dieses Tool schätzt die technische Schwierigkeit einer Skiroute (Skibewertung).",
@@ -1248,7 +1245,6 @@
     "Unprotect document": "Dokument unschützen",
     "Upload a GPS track": "GPS Strecke hochladen ",
     "url": "URL",
-    "URL/Link": "URL/Link",
     "Username": "Benutzername",
     "vertical": {
       "climbing_styles": "vertikal"

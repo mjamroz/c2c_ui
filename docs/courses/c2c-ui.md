@@ -32,8 +32,6 @@ They are defined in package.json
 * **build**: Build production site
 * **build:github**: Build demo site
 * **lint**: Check code compliance. Have a look on `no-fix` parameter!
-* **messages:extract**: Build `/src/translations/po/c2corg_ui-client.pot` from all source, the list of message that must be translated
-* **messages:compile**: get translations from transifex and compile them to json files
 * **generate-docs**: Generate code documentation
 * **generate-icons**: Generate Font-Awesome custom icons
 * **update-c2c-common**: `/src/js/constants/common.json` is build from c2c_common repo. Here is the task for this !

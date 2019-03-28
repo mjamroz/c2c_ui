@@ -235,7 +235,6 @@
     "conglomerat": {
       "rock_types": "conglomerato"
     },
-    "Contact": "Contatto",
     "contact": "Contatto ",
     "Continue the discussion": "Prosegui la discussione",
     "copyright": {
@@ -261,7 +260,6 @@
       "glacier_gear_types": "ramponi ad inizio stagione"
     },
     "Create a new report": "Creare un nuovo report",
-    "Create a new route": "Aggiungi un nuovo itinerario",
     "Created on": "Creato il ",
     "crevasse_fall": {
       "event_types": "caduta in crepaccio "
@@ -330,13 +328,6 @@
       "route_configuration_types": "cresta"
     },
     "Edit": "Modificare",
-    "Edit in ca": "Edizione in catalano",
-    "Edit in de": "Edizione in tedesco",
-    "Edit in en": "Edizione in inglese",
-    "Edit in es": "Edizione in spagnolo",
-    "Edit in eu": "Edizione in basco",
-    "Edit in fr": "Edizione in francese",
-    "Edit in it": "Edizione in italiano",
     "editor": "Editore",
     "Elevation": "Quota",
     "elevation": "Quota",
@@ -359,8 +350,7 @@
       "book_types": "ambiente"
     },
     "equipment": {
-      "image_categories": "attrezzatura ",
-      "$$noContext": "attrezzatura "
+      "image_categories": "attrezzatura "
     },
     "equipment_rating": "Chiodatura",
     "equipment_ratings": "Chiodatura",
@@ -446,8 +436,7 @@
       "waypoint_types": "posto tappa"
     },
     "glacier": {
-      "route_configuration_types": "ghiacciaio",
-      "$$noContext": "ghiacciaio"
+      "route_configuration_types": "ghiacciaio"
     },
     "glacier_crampons": {
       "glacier_gear_types": "ramponi + attrezzatura da ghiacciaio"
@@ -643,7 +632,6 @@
       "waypoint_types": "luogo"
     },
     "Location / elevation / orientation": "Localizzazione / quota / orientazione ",
-    "Log in to post the first comment": "Devi connetterti per scrivere un commento",
     "Login": "Connettersi",
     "Logout": "Disconnettersi ",
     "Longitude": "Longitudine",
@@ -656,7 +644,6 @@
     "magazine": {
       "book_types": "rivista"
     },
-    "main waypoint": "waypoint principale ",
     "Make profile page public": "Autorizzare tutti a vedere il tuo profilo",
     "male": {
       "genders": "maschio "
@@ -667,7 +654,6 @@
       "months": "marzo"
     },
     "matress_unstaffed": "Materassi (non gestito) ",
-    "max": "max",
     "may": {
       "months": "maggio "
     },
@@ -680,7 +666,6 @@
     "migmatite": {
       "rock_types": "migmatite"
     },
-    "min": "min",
     "misc": {
       "image_categories": "varie",
       "waypoint_types": "varie"
@@ -928,10 +913,7 @@
     "public_transportation_rating": "Accessibilità con i mezzi pubblici",
     "public_transportation_types": "Tipo di mezzi pubblici ",
     "publication_date": "Data di pubblicazione ",
-    "quality": {
-      "snow": "Qualità del documento",
-      "$$noContext": "Qualità del documento"
-    },
+    "quality": "Qualità del documento",
     "quartzite": {
       "rock_types": "quarzite"
     },
@@ -1164,7 +1146,6 @@
     "There are sensitive areas on this route. Please refer to the map.": "Questo itinerario attraversa (o passa vicino a) una aerea protetta. Consultare la mappa.",
     "This content is licensed under Creative Commons BY-NC-ND 3.0": "Il contenuto e sotto la licenza Creative Commons BY-NC-ND 3.0",
     "This content is licensed under Creative Commons BY-SA 3.0": "Il contenuto e sotto la licenza Creative Commons BY-SA 3.0",
-    "This field must be a valid ISBN.": "Questo campo deve essere un ISBN valido. ",
     "This picture depicts a book cover. It is the property of its editor and/or author. It is presented here only for illustration purposes.": "Questa immagine mostra una copertina di libro. E' di proprietà dell'editore o dell'autore, vienequi  presentata solo per illustrazione. ",
     "This profile is only available to authenticated users.": "Questo profilo è accessibile solo agli utenti registrati",
     "This tool estimates the technical difficulty of a ski route (ski rating).": "Questo strumento aiuta a stimare la difficoltà tecnica di un itinerario di scialpinismo",
@@ -1199,13 +1180,11 @@
     "traverse": {
       "route_types": "traversata"
     },
-    "type": "Tipo",
     "Types and styles": "Tipi e stili",
     "Unblock account": "Sblocca account",
     "Unprotect document": "Sproteggere questo documento",
     "Upload a GPS track": "Aggiungere una traccia GPS",
     "url": "URL",
-    "URL/Link": "URL/link",
     "Username": "Username",
     "vertical": {
       "climbing_styles": "verticale"

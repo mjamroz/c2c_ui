@@ -264,11 +264,7 @@
     "crampons_spring": {
       "glacier_gear_types": "crampons_spring"
     },
-    "Create a new article": "Create a new article",
-    "Create a new book": "Create a new book",
     "Create a new report": "Create a new report",
-    "Create a new route": "Create a new route",
-    "Create a new waypoint": "Create a new waypoint",
     "Created on": "Created on",
     "crevasse_fall": {
       "event_types": "crevasse fall"
@@ -650,7 +646,6 @@
       "waypoint_types": "locality"
     },
     "Location / elevation / orientation": "Location / elevation / orientation",
-    "Log in to post the first comment": "Log in to post the first comment",
     "Login": "Sign in",
     "Logout": "Sign out",
     "Longitude": "Longitude",
@@ -1177,7 +1172,6 @@
     "This book cover is the property of its editor and/or author": "This book cover is the property of its editor and/or author",
     "This content is licensed under Creative Commons BY-NC-ND 3.0": "This content is licensed under Creative Commons BY-NC-ND 3.0",
     "This content is licensed under Creative Commons BY-SA 3.0": "This content is licensed under Creative Commons BY-SA 3.0",
-    "This field must be a valid ISBN.": "This field must be a valid ISBN.",
     "This picture depicts a book cover. It is the property of its editor and/or author. It is presented here only for illustration purposes.": "This picture depicts a book cover. It is the property of its editor and/or author. It is presented here only for illustration purposes.",
     "This profile is only available to authenticated users.": "This profile is only available to authenticated users.",
     "This tool estimates the technical difficulty of a ski route (ski rating).": "This tool estimates the technical difficulty of a ski route (ski rating).",
@@ -1218,7 +1212,6 @@
     "Unprotect document": "Unprotect document",
     "Upload a GPS track": "Upload a GPS track",
     "url": "Url",
-    "URL/Link": "URL/Link",
     "Username": "Username",
     "vertical": {
       "climbing_styles": "vertical"

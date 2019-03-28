@@ -2,7 +2,6 @@
 
 /*****************************************
 Extract untranslated string from .vue and .js files
-and save them into a .pot file :
 
 https://www.gnu.org/software/gettext/manual/gettext.html
 
@@ -32,9 +31,10 @@ const gettextCompiler = new GettextCompiler({ format: 'json' });
 
 const NODETYPE_TEXT = 3;
 
-const project = 'c2corg_ui';
+const project = 'c2corg_ui_integ';
 const resource = 'main';
 const baseUrl = `https://www.transifex.com/api/2/project/${project}/resource/${resource}`;
+const i18nReferenceFile = 'src/translations/po/en_US.po';
 
 const template_regex = /(<template>[\s\S]*<\/template>)/;
 const gettext_template1 = /\$gettext\('((?:[^']|\\')*?)'\)/g;
@@ -58,7 +58,7 @@ Result.prototype.toString = function() {
 
   result += this.msgctxt ? `msgctxt "${this.msgctxt}"\n` : '';
   result += `msgid "${this.msgid}"\n`;
-  result += `msgstr ""\n`;
+  result += `msgstr "${this.msgid}"\n`;
 
   return result;
 };
@@ -195,30 +195,7 @@ function extract() {
     .map(item => item[1].toString())
     .join('\n');
 
-  const options = {
-    auth: {
-      username: argv.user,
-      password: argv.password
-    },
-    data
-  };
-  axios.put(`${baseUrl}/content/`, options)
-    .then(() => {
-      // eslint-disable-next-line no-console
-      console.log(`Process finished. ${entries.length} messages extracted`);
-    })
-    .catch(error => {
-      if (error.response) {
-        // eslint-disable-next-line no-console
-        console.error(`Cannot submit extracted messages: ${error.response.statusText} (${error.response.status})`);
-      } else if (error.request) {
-        // eslint-disable-next-line no-console
-        console.error('Cannot submit extracted messages: ' + error.request);
-      } else {
-        // eslint-disable-next-line no-console
-        console.log('Cannot submit extracted messages:', error.message);
-      }
-  });
+  fs.writeFileSync(i18nReferenceFile, data);
 }
 
 function getTranslation(lang, callback) {
