@@ -1,3 +1,7 @@
+#: xxxx
+msgid "fake entry for testing"
+msgstr "oooo yeah"
+
 #: src/views/wiki/edition/WaypointEditionView.vue:50
 msgid "..."
 msgstr "..."
