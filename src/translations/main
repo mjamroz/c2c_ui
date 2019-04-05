@@ -15,3 +15,8 @@ msgstr "1 or 2 complications (steeper or narrow section...)"
 msgctxt "access_times"
 msgid "10min"
 msgstr "10min"
+
+#: src/translations/fixed_strings_common_js.vue:204
+msgctxt "access_times"
+msgid "15min"
+msgstr "15min"
