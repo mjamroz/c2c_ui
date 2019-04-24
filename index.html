@@ -45,7 +45,7 @@
               ->
             </span>
             <em v-if="branch.pull === undefined">Getting pull request</em>
-            <em v-else-if="branch.pull === null" class="has-text-warning">There is not PR for this branch</em>
+            <em v-else-if="branch.pull === null" class="has-text-warning">There is no PR for this branch</em>
             <span v-else>
               <a :href="branch.pull.html_url">
                 Pull request
