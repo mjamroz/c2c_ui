@@ -99,7 +99,8 @@
 
         methods: {
           initBranch(branch){
-            const url = `https://${ORG_NAME}.github.io/${REPO_NAME}/${branch.name}`;
+            branch.cleanedName = branch.name.replace('/', '-');
+            const url = `https://${ORG_NAME}.github.io/${REPO_NAME}/${branch.cleanedName}`;
             this.$set(branch, "githubPageUrl", url)
             this.$set(branch, "buildIsReady", undefined);
             this.$set(branch, "pull", undefined);
@@ -130,7 +131,7 @@
             this.branches.map((branch) => { branch.buildIsReady = false });
 
             const branches = {}
-            this.branches.map((branch) => { branches[branch.name] = branch });
+            this.branches.map((branch) => { branches[branch.cleanedName] = branch });
 
             for (const item of this.githubPageContent.filter((item) => item.type === 'dir')){
               if (branches[item.name] !== undefined) {
