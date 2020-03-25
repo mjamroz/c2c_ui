@@ -1,0 +1,80 @@
+{
+  "zh_CN": {
+    "activities": "活动",
+    "areas": "地区",
+    "articles": "文章",
+    "Association": "协会",
+    "Both results and map": "结果和地图",
+    "contact": "联系",
+    "contributor": "贡献者",
+    "date_end": "结束时间",
+    "draft": {
+      "quality_types": "粗略"
+    },
+    "Elevation": "海拔",
+    "empty": {
+      "quality_types": "空白"
+    },
+    "EULA": "用户许可",
+    "excellent": {
+      "condition_ratings": "非常好",
+      "snow_quality_ratings": "非常好",
+      "snow_quantity_ratings": "非常好"
+    },
+    "fine": {
+      "quality_types": "好"
+    },
+    "Forum": "论坛",
+    "forum": "论坛",
+    "General": "过滤",
+    "global_rating": "整体定级",
+    "hiking": {
+      "activities": "徒步"
+    },
+    "ice_climbing": {
+      "activities": "攀冰"
+    },
+    "Incidents and accidents": "事故报告",
+    "Licenses": "内容许可",
+    "Load my preferences": "加载我的偏好设置",
+    "Map only": "仅地图",
+    "medium": {
+      "quality_types": "中等"
+    },
+    "mountain_biking": {
+      "activities": "山地骑行"
+    },
+    "mountain_climbing": {
+      "activities": "登山"
+    },
+    "Multi-criteria search": "多条件搜索",
+    "outings": "出行记录",
+    "paragliding": {
+      "activities": "滑翔伞"
+    },
+    "ratings": "定级",
+    "Results only": "仅结果",
+    "rock_climbing": {
+      "activities": "攀岩"
+    },
+    "Search ...": "搜索 ...",
+    "skitouring": {
+      "activities": "滑雪穿越"
+    },
+    "slacklining": {
+      "activities": "走扁带"
+    },
+    "snow_ice_mixed": {
+      "activities": "混合路线"
+    },
+    "snowshoeing": {
+      "activities": "雪鞋徒步"
+    },
+    "Terrain": "地形",
+    "title": "标题",
+    "Topoguide": "路书",
+    "via_ferrata": {
+      "activities": "飞拉达"
+    }
+  }
+}
